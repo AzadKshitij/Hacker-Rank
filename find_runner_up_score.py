@@ -1,0 +1,5 @@
+n = int(input())
+arry = list(map(int,input().split()))
+arry = list(dict.fromkeys(arry))
+arry.remove(max(arry))
+print(max(arry))
